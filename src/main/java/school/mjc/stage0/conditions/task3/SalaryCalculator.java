@@ -5,11 +5,11 @@ public class SalaryCalculator {
         if (salary < 0) {
             System.out.println( "wrong input!");
         } else if (salary <= 10000) {
-            System.out.println(salary * 0.15);
+            System.out.println(salary - salary * 0.15);
         } else if (salary > 20000) {
-            System.out.println(salary * 0.2);
+            System.out.println(salary - salary * 0.2);
         } else {
-            System.out.println(salary * 0.18);
+            System.out.println(salary - salary * 0.18);
         }
     }
 }
